@@ -1,18 +1,6 @@
 [![Build Status](https://travis-ci.org/nutterb/HydeNet.png?branch=master)](https://travis-ci.org/nutterb/HydeNet) 
 
-Hybrid Bayesian Networks Using R and JAGS
+Gallery of Hybrid Bayesian Networks Using R and JAGS
 ===
 
-Facilities for easy implementation of hybrid Bayesian networks
-using R. Bayesian networks are directed acyclic graphs representing joint
-probability distributions, where each node represents a random
-variable and each edge represents conditionality. The full joint
-distribution is therefore factorized as a product of conditional densities, 
-where each node is assumed to be independent of its non-desendents given 
-information on its parent nodes. Since exact, closed-form algorithms 
-are computationally burdensome for inference within hybrid networks that contain
-a combination of continuous and discrete nodes, particle-based approximation
-techniques like Markov Chain Monte Carlo are popular.  We provide a user-friendly
-interface to constructing these networks and running inference using rjags.
-Econometric analyses (maximum expected utility under competing policies, value of
-information) involving decision and utility nodes are also supported.
+Use examples of Hybrid Decision models using `HydeNet`
