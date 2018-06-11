@@ -89,7 +89,6 @@ termName <- function(term, reg)
 }
 
 #' @rdname HydeUtilities
-#' @importFrom stringr perl
 #' @importFrom stringr str_extract
 #' 
 #' @param node Character string indicating a node in a network
